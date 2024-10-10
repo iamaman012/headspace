@@ -7,7 +7,7 @@ import "./HeadspaceContent.css"
 const HeadspaceContent = () => {
   return (
    <>
-    <div className="total-option-cont">
+    <div className="total-option-cont max-sm:mt-32 max-sm:w-screen">
       <div className="headspace-option-cont">
         <div className="headspace-option ">Recent</div>
         <div className="headspace-option option-active">Featured</div>

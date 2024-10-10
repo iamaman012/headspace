@@ -10,8 +10,8 @@ export default function FeaturedCard() {
     const navigate =  useNavigate();
     
   return (
-    <div>
-      <div className="featured-card-cont">
+    <div className="max-sm:mt-6">
+      <div className="featured-card-cont max-sm:mt-20">
         <div className="featured-img-cont">
           <img
             className="featured-img"

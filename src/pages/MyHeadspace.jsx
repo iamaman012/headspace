@@ -12,7 +12,7 @@ const MyHeadspace = ({title}) => {
     <MyHeadspaceNav/>
     <div className="headspace-content-container">
       <div className="headspace-content-item">
-        <p className="topitem-head">{title}</p>
+        <p className="topitem-head max-sm:text-center">{title}</p>
         <HeadspaceTop/>
         <HeadspaceContent/>
       </div>

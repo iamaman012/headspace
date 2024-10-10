@@ -1,21 +1,21 @@
 import React from "react";
 import "../styles/Landing.css";
 import left_img from "../assets/Hero_Image_left.png";
-import right_img from "../assets/Hero_Right_Image_Default-2022.png";
+import right_img from "../assets/Hero_Right_Image_Default-2022.webp";
 import "../styles/wave.css";
 
 const Landing = () => {
   return (
     <>
-      <div className="main-component relative flex justify-between pt-24 h-[680px] max-lg:flex-col max-lg:justify-center max-lg:items-center">
-        <div className="left-image flex">
+      <div className="main-component relative flex justify-between pt-20 min-h-screen max-lg:flex-col max-lg:justify-center max-lg:items-center ">
+        <div className="left-image flex max-lg:order-2">
           <img
             className="max-md:h-4 max-md:w-4"
             src={left_img}
             alt="left-image"
           />
         </div>
-        <div className="main-content flex-col text-center">
+        <div className="main-content flex-col text-center max-lg:order-1">
           <h2 className="text-6xl font-semibold">Make it your year</h2>
           <h2 className="text-6xl font-semibold">with Headspace</h2>
           <div className="flex bg-yellow-400 rounded-xl px-28 py-4 mt-10 text-center">
@@ -40,7 +40,7 @@ const Landing = () => {
             Try for free
           </button>
         </div>
-        <div className="right-image flex">
+        <div className="right-image flex max-lg:order-3">
           <img src={right_img} alt="left-image" />
         </div>
         <div className="custom-shape-divider-bottom-1728039665 flex">

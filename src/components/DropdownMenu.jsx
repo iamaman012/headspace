@@ -39,9 +39,8 @@ const DropdownMenu = () => {
           </div>
            <div className="right-dropdown mt-10">
                 <img src={dropdown_img} />
-                {/* <button className="bg-red-400 w-full flex">try for free <FiArrowRight/></button>
-                 */}
-                 <a href='www.headspace.com' className='my-2 py-3 px-4 text-md underline flex items-center text-black '> try for free <FiArrowRight /> </a>
+                
+                 <a href='www.headspace.com' className='py-2 text-sm underline flex items-center justify-center text-black bg-[#faf4f4] rounded-b-3xl'> try for free <FiArrowRight /> </a>
             </div>
         </div>
       </ul>

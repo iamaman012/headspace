@@ -9,7 +9,7 @@ export default function HeadspaceTop() {
   const lastPart = location.pathname.split("/").pop();
 
   return (
-    <div className="topitem-box">
+    <div className="topitem-box max-sm:flex-col">
       <div className="topitem-img-cont">
         <img
           className="top-item-img"

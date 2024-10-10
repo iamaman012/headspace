@@ -18,7 +18,7 @@ export default function BottomNav() {
   };
 
   return (
-    <div className="bottom-div">
+    <div className="bottom-div max-sm:gap-0">
       <div className="bottom-item">
         <div
           className={`bottom-action ${selected === "meditate" ? "active" : ""}`}
